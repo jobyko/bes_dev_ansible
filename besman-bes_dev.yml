@@ -1,0 +1,6 @@
+- name: test
+  hosts: localhost
+  tasks: 
+        - name: test
+          command: date
+
