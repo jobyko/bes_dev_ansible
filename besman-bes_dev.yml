@@ -1,16 +1,4 @@
 - name: install app
   hosts: localhost
-  tasks: 
-
-        - name: import os specific tasks
-          include_tasks: "os_{{ ansible_os_family }}.yml"
-
-        - name: install extension
-          shell: "code --install-extension {{ item }}"
-          become: no
-          register: result
-          when: 
-                - vscode_extension is defined
-          loop: "{{ vscode_extension }}"
-          changed_when: result.stdout is not search('is already installed.')
-
+  roles: 
+       - vscode
