@@ -1,4 +1,4 @@
 - name: install app
-  hosts: localhost
+  hosts: all
   roles: 
        - vscode
