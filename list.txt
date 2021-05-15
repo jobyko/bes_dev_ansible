@@ -1,3 +1,3 @@
-jobyko/bes_dev_ansible/bes_dev_ansible,0.0.1
-jobyko/bes_dev_ansible/bes_dev_puppet,0.0.1
-jobyko/bes_dev_ansible/bes_dev_chef,0.0.1
+bes_dev_ansible,0.0.1
+bes_dev_puppet,0.0.1
+bes_dev_chef,0.0.1
