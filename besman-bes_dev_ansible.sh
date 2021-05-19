@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function __besman_install_bes_dev_ansible {
+function __besman_install_bes-ansibledev-env {
 
 
 echo "installing bes_dev_ansible environment"
