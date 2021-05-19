@@ -2,3 +2,12 @@
   hosts: localhost
   roles: 
        - vscode
+  taks: 
+       - name: Install ZAP security tool
+         command: sh ./zap.sh
+         
+       - name: Running ZAP application for security test.
+         command: sh ./zap.sh --run
+         
+       - name: Open VScode for Dev activities. 
+         command: code
