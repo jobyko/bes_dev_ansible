@@ -1,2 +1,2 @@
-jobyko/bes_dev_ansible/bes_ansibledev-env,0.0.1
-jobyko/bes_dev_ansible/bes_ansiblesec-env,0.0.1
+jobyko/bes_dev_ansible/bes-ansibledev-env,0.0.1
+jobyko/bes_dev_ansible/bes-ansiblesec-env,0.0.1
